@@ -12,7 +12,8 @@
     "deploy": "gh-pages -d dist"
   },
 
-"homepage": "https://github.com/lennyleoo/VendoTodo",
+ "homepage": "https://lennyleoo.github.io/VendoTodo",
+
 
   "dependencies": {
     "react": "^18.3.1",
