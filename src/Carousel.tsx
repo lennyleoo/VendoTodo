@@ -31,11 +31,25 @@ const ProductCarousel = ({ images }) => {
 
   return (
     <div className="carousel">
-     
-      <button onClick={goToPreviousImage}>❮</button>
+    <div className="carousel-image-container">
+      <button className="prev" onClick={goToPreviousImage}>❮</button>
       <img src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
-      <button onClick={goToNextImage}>❯</button>
+      <button className="next" onClick={goToNextImage}>❯</button>
     </div>
+  
+    <div className="thumbnails">
+      {images.map((image, index) => (
+        <img
+          key={index}
+          src={image}
+          alt={`Thumbnail ${index + 1}`}
+          className={`thumbnail ${currentIndex === index ? "active" : ""}`}
+          onClick={() => setCurrentIndex(index)}
+        />
+      ))}
+    </div>
+  </div>
+  
   );
 };
 
