@@ -5,7 +5,7 @@ interface ProductCardProps {
   image: string;
   title: string;
   description: string;
-  price: number;
+  price: string;
   onAddToCart: () => void;
 }
 

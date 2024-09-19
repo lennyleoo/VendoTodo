@@ -6,7 +6,7 @@ interface Product {
   images: string[];
   title: string;
   description: string;
-  price: number;
+  price: string;
   category: string; 
 }
 
@@ -34,7 +34,7 @@ const ProductList: React.FC<ProductListProps> = ({ products, onAddToCart, onImag
           <h2>{product.title}</h2>
           <p>{product.description}</p>
           <div className="product-card-footer">
-            <span>${product.price.toFixed(0)}</span>
+          <span>${product.price}</span>
             <button onClick={() => onAddToCart(product.id)}>Lo quiero</button>
           </div>
         </div>
