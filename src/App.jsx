@@ -8,10 +8,16 @@ const App = () => {
   const [products] = useState([
     { id: 89, images: ['P1.png','P2.png'], title: 'Iphone 12 Pro Max', description: '128GB Bateria Original 82%', price: '600.000', category: 'electrodomesticos' },  
       { id: 0, images: ['A34 FRENTE.png','A 34 DORSO.png'], title: 'Samsung A34 Verde Limon', description: 'Camara 48 MP menos de un año de uso 128GB', price: '350.000', category: 'electrodomesticos' },  
-      { id: 1, images: ['iphone 6.png', 'iphone_parte_trasera-removebg-preview.png','iphone_pantalla-removebg-preview.png','iphone_btn-removebg-preview.png'], title: 'Iphone 6s', description: '64GB- Color Gold - Bateria Original 72%', price: '50.000', category: 'electrodomesticos' },
+      { id: 59, images: ['ventila1-removebg-preview.png','ventila2-removebg-preview.png'], title: 'Ventilador Industrial', description: '3 Velocidades como nuevo', price: '250.000', category: 'electrodomesticos' },  
+      { id: 89, images: ['banco1-removebg-preview.png','banco_incli-removebg-preview.png','banco2-removebg-preview.png','pesas-removebg-preview.png'], title: 'Banco Gym Multiangular', description: 'Apto gimnasio soporta 200kg', price: '150.000', category: 'deportes' },  
+      { id: 78, images: ['negras_running1-removebg-preview.png','negrass_rgg2-removebg-preview.png'], title: 'Zapatillas Adidas', description: 'Negras Running ', price: '30.000', category: 'indumentaria' },  
+
       { id: 18, images: ['xbox1-removebg-preview.png','xbox2-removebg-preview.png','xbox4-removebg-preview.png','xbox5-removebg-preview.png','xbox6-removebg-preview.png'], title: 'Xbox Series S', description: '6 meses de uso. nuevisima ', price: '700.000', category: 'electrodomesticos'},
       { id: 4, images: ['botines1pr-removebg-preview.png','botines2pr-removebg-preview.png','botines3pr-removebg-preview.png','botines4pr-removebg-preview.png','botines5pr-removebg-preview.png'], title: 'Botines Adidas Predator Talle 43', description: 'Futsal - Muy poco uso.', price: '80.000', category: 'deportes'},
-      { id: 17, images: ['kinder1-removebg-preview.png','kinder2-removebg-preview.png','kinder3-removebg-preview.png'], title: 'Kindle Amazon E-Book', description: 'E-Book Libros', price: '145.000', category: 'electrodomesticos'},
+      { id: 17, images: ['kinder1-removebg-preview.png','kinder2-removebg-preview.png','kinder3-removebg-preview.png'], title: 'Kindle Amazon E-Book', description: 'E-Book Libros', price: '100.000', category: 'electrodomesticos'},
+      { id: 33, images: ['sillon2-removebg-preview.png','sillon3-removebg-preview.png','silloncama-removebg-preview.png','sillon4-removebg-preview.png'], title: 'Sillon Cama ', description: 'Color celeste', price: '40.000', category: 'indumendaria' },  
+
+      { id: 1, images: ['iphone 6.png', 'iphone_parte_trasera-removebg-preview.png','iphone_pantalla-removebg-preview.png','iphone_btn-removebg-preview.png'], title: 'Iphone 6s', description: '64GB- Color Gold - Bateria Original 72%', price: '50.000', category: 'electrodomesticos' },
 
       { id: 2, images: ['cooler.png','Cooler_en_caja-removebg-preview.png','cooler1-removebg-preview.png','cooler.png','cooler_parte_atras-removebg-preview.png'], title: 'Cooler AM4 AMD NUEVO', description: 'Nuevo sin uso en caja ', price: '30.000', category: 'electrodomesticos'},
 
